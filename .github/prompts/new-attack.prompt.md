@@ -22,4 +22,4 @@ Create the following files for a new adversarial attack called **{{attack_name}}
    - Add the new class to `backend/attacks/__init__.py` exports.
    - Add a Celery task in `backend/tasks/` that wraps the attack's `run` method.
 
-Follow the conventions in [attacks.instructions.md](../.github/instructions/attacks.instructions.md).
+Follow the conventions in `.github/instructions/attacks.instructions.md`.
