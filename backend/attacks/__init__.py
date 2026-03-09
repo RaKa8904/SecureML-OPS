@@ -2,5 +2,6 @@
 
 from backend.attacks.base import BaseAttack
 from backend.attacks.fgsm import FGSM
+from backend.attacks.pgd import PGD
 
-__all__ = ["BaseAttack", "FGSM"]
+__all__ = ["BaseAttack", "FGSM", "PGD"]
