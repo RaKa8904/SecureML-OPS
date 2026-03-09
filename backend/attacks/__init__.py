@@ -4,5 +4,6 @@ from backend.attacks.base import BaseAttack
 from backend.attacks.cw import CW
 from backend.attacks.fgsm import FGSM
 from backend.attacks.pgd import PGD
+from backend.attacks.transfer import Transfer
 
-__all__ = ["BaseAttack", "CW", "FGSM", "PGD"]
+__all__ = ["BaseAttack", "CW", "FGSM", "PGD", "Transfer"]
