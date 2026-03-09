@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# pytest
+.pytest_cache/
+
+# Data & storage
+data/
+backend/storage/models/*
+backend/storage/reports/*
+!backend/storage/models/.gitkeep
+!backend/storage/reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Docker
+*.log
+
+# Environment
+.env
